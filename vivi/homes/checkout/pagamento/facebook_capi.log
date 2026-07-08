@@ -1,0 +1,11 @@
+[2025-12-27 21:10:57] Evento: InitiateCheckout | HTTP: 200 | Response: {"events_received":1,"messages":[],"fbtrace_id":"ALWTFQPRXSxlM4K7Hxcg59h"}
+[2025-12-27 21:12:42] Evento: InitiateCheckout | HTTP: 200 | Response: {"events_received":1,"messages":[],"fbtrace_id":"AGxKMx4G-JjTyUkc4MN-jFT"}
+[2025-12-27 21:14:11] Evento: InitiateCheckout | HTTP: 200 | Response: {"events_received":1,"messages":[],"fbtrace_id":"AnKmOS0LmC3pI_8tX1D_tA1"}
+[2025-12-27 21:14:29] Evento: InitiateCheckout | HTTP: 200 | Response: {"events_received":1,"messages":[],"fbtrace_id":"ATb5SFRK11acypWsJLxAJ2_"}
+[2025-12-28 09:17:02] Evento: InitiateCheckout | HTTP: 200 | Response: {"events_received":1,"messages":[],"fbtrace_id":"ALhORH1gPeZ4Jm9qxVgPPDz"}
+[2025-12-28 09:17:02] Evento: InitiateCheckout | HTTP: 200 | Response: {"events_received":1,"messages":[],"fbtrace_id":"ANIGxpX4XybwFCgNuMvs6pY"}
+[2025-12-28 09:17:06] Evento: InitiateCheckout | HTTP: 200 | Response: {"events_received":1,"messages":[],"fbtrace_id":"ApXdpAsJdEPmyFD5B-y37gx"}
+[2025-12-28 09:47:49] Evento: InitiateCheckout | HTTP: 200 | Response: {"events_received":1,"messages":[],"fbtrace_id":"A3HVupNlI9ZAeBLw6ktuOhB"}
+[2025-12-28 11:34:31] Evento: InitiateCheckout | HTTP: 200 | Response: {"events_received":1,"messages":[],"fbtrace_id":"A8ajgCMrkB9San0NZgeX4vU"}
+[2025-12-28 11:44:43] Evento: InitiateCheckout | HTTP: 200 | Response: {"events_received":1,"messages":[],"fbtrace_id":"AghkmqAJZysICS6dZVcY2Bw"}
+[2025-12-28 11:45:34] Evento: InitiateCheckout | HTTP: 200 | Response: {"events_received":1,"messages":[],"fbtrace_id":"AztquBVwvYxL-C5eJJuccqI"}

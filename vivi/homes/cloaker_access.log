@@ -1,0 +1,203 @@
+[2025-12-28 10:37:11]IP: 177.2.14.104 | Status: BLOCKED | Reason: Desktop Device Detected | Country: N/A | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+[2025-12-28 10:37:52]IP: 177.2.14.104 | Status: ALLOWED | Reason: Clean Traffic | Country: BR | UA: Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1
+[2025-12-28 10:41:10]IP: 173.252.107.4 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:11]IP: 173.252.127.20 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:11]IP: 173.252.127.23 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:11]IP: 173.252.127.6 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:12]IP: 173.252.127.32 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:12]IP: 173.252.127.14 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:12]IP: 173.252.127.24 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:12]IP: 173.252.107.10 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:13]IP: 173.252.107.1 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:17]IP: 173.252.87.112 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:41:17]IP: 173.252.87.112 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:41:17]IP: 173.252.95.39 | Status: BLOCKED | Reason: Desktop Device Detected | Country: N/A | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+[2025-12-28 10:41:18]IP: 173.252.87.3 | Status: BLOCKED | Reason: Desktop Device Detected | Country: N/A | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+[2025-12-28 10:41:18]IP: 173.252.127.114 | Status: BLOCKED | Reason: Desktop Device Detected | Country: N/A | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+[2025-12-28 10:41:35]IP: 69.171.249.37 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:35]IP: 69.171.234.1 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:36]IP: 69.171.230.112 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:36]IP: 173.252.79.9 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:37]IP: 173.252.83.19 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:37]IP: 173.252.107.15 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:38]IP: 69.171.234.23 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:48]IP: 173.252.79.39 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:49]IP: 173.252.107.1 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:49]IP: 173.252.107.1 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:51]IP: 173.252.95.10 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:51]IP: 69.171.249.112 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:41:56]IP: 173.252.83.14 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:00]IP: 69.171.231.8 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:05]IP: 31.13.127.17 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:07]IP: 31.13.127.63 | Status: BLOCKED | Reason: Geo Mismatch (IE) | Country: IE | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:08]IP: 173.252.95.8 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (iPhone; CPU iPhone OS 26_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/23B85 [FBAN/FBIOS;FBAV/543.0.0.47.72;FBBV/845843444;FBDV/iPhone12,1;FBMD/iPhone;FBSN/iOS;FBSV/26.1;FBSS/2;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/851224490]
+[2025-12-28 10:42:08]IP: 66.220.149.11 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+[2025-12-28 10:42:08]IP: 31.13.127.8 | Status: BLOCKED | Reason: Geo Mismatch (IE) | Country: IE | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:09]IP: 44.255.108.68 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:10]IP: 173.252.95.9 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+[2025-12-28 10:42:10]IP: 173.252.82.23 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:11]IP: 35.87.40.39 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:13]IP: 31.13.115.8 | Status: BLOCKED | Reason: Geo Mismatch (SE) | Country: SE | UA: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+[2025-12-28 10:42:13]IP: 173.252.70.14 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:15]IP: 66.220.149.13 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+[2025-12-28 10:42:15]IP: 173.252.127.8 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+[2025-12-28 10:42:15]IP: 173.252.95.115 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:15]IP: 44.243.213.193 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:15]IP: 66.220.149.22 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:16]IP: 44.251.239.130 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:17]IP: 44.255.108.68 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:17]IP: 173.252.70.28 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+[2025-12-28 10:42:17]IP: 173.252.107.7 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:17]IP: 173.252.87.25 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:17]IP: 173.252.79.2 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:20]IP: 16.146.62.126 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:22]IP: 35.87.202.93 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:22]IP: 66.220.149.7 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+[2025-12-28 10:42:24]IP: 173.252.127.32 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+[2025-12-28 10:42:24]IP: 173.252.127.4 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:24]IP: 31.13.127.27 | Status: BLOCKED | Reason: Geo Mismatch (IE) | Country: IE | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:24]IP: 35.161.78.87 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:26]IP: 66.220.149.16 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:27]IP: 66.220.149.38 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:29]IP: 66.220.149.29 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:29]IP: 31.13.115.13 | Status: BLOCKED | Reason: Geo Mismatch (SE) | Country: SE | UA: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+[2025-12-28 10:42:30]IP: 173.252.79.115 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:31]IP: 34.219.204.64 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:33]IP: 44.243.213.193 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:34]IP: 31.13.127.19 | Status: BLOCKED | Reason: Geo Mismatch (IE) | Country: IE | UA: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+[2025-12-28 10:42:34]IP: 173.252.70.114 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:35]IP: 173.252.79.112 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:35]IP: 44.252.33.234 | Status: BLOCKED | Reason: Geo Mismatch (US) | Country: US | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:35]IP: 69.171.234.113 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:35]IP: 173.252.87.112 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:35]IP: 31.13.127.9 | Status: BLOCKED | Reason: Geo Mismatch (IE) | Country: IE | UA: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1
+[2025-12-28 10:42:35]IP: 31.13.127.116 | Status: BLOCKED | Reason: Geo Mismatch (IE) | Country: IE | UA: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+[2025-12-28 10:42:35]IP: 31.13.103.28 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:36]IP: 69.171.234.20 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:36]IP: 69.171.234.61 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:36]IP: 66.220.149.0 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:36]IP: 31.13.115.4 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:36]IP: 66.220.149.115 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:37]IP: 69.63.189.2 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:37]IP: 69.63.189.1 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:37]IP: 31.13.103.6 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:39]IP: 173.252.87.2 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:40]IP: 69.171.249.31 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:41]IP: 31.13.127.31 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:41]IP: 31.13.115.61 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:41]IP: 69.63.189.23 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:42]IP: 69.63.189.44 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:43]IP: 31.13.115.54 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:44]IP: 173.252.107.5 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:47]IP: 69.171.231.49 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:49]IP: 69.171.231.3 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:50]IP: 31.13.115.114 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:57]IP: 173.252.87.57 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:42:57]IP: 173.252.87.42 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:43:23]IP: 173.252.87.13 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:43:27]IP: 173.252.83.13 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:43:28]IP: 173.252.83.16 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:43:31]IP: 173.252.79.11 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:43:31]IP: 173.252.79.12 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:43:35]IP: 69.171.249.34 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:43:35]IP: 69.171.249.40 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:43:38]IP: 173.252.87.7 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:43:38]IP: 173.252.87.116 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:43:39]IP: 69.63.189.1 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:43:39]IP: 69.63.189.113 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:43:39]IP: 173.252.79.46 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:43:39]IP: 173.252.79.45 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:43:39]IP: 69.63.189.26 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:43:39]IP: 69.63.189.23 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:43:48]IP: 31.13.115.5 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:43:48]IP: 31.13.115.112 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:20]IP: 173.252.87.113 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:21]IP: 173.252.87.3 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:22]IP: 31.13.103.19 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:22]IP: 69.171.231.51 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:22]IP: 31.13.103.2 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:22]IP: 31.13.103.7 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:22]IP: 173.252.79.17 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:22]IP: 69.171.231.27 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:23]IP: 31.13.103.19 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:23]IP: 173.252.79.41 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:23]IP: 173.252.79.112 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:23]IP: 173.252.79.15 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:23]IP: 173.252.79.15 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:23]IP: 173.252.79.11 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:23]IP: 31.13.103.6 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:24]IP: 173.252.107.15 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:24]IP: 31.13.103.6 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:24]IP: 69.63.189.14 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:26]IP: 69.63.189.22 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:38]IP: 31.13.115.19 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:38]IP: 173.252.127.8 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:42]IP: 66.220.149.11 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:42]IP: 173.252.127.12 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:42]IP: 173.252.127.9 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:42]IP: 66.220.149.49 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:46]IP: 66.220.149.19 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:47]IP: 66.220.149.47 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:47]IP: 66.220.149.19 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:47]IP: 66.220.149.7 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:50]IP: 66.220.149.15 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:55]IP: 31.13.103.3 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:48:56]IP: 31.13.103.8 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:49:29]IP: 173.252.127.5 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:53:37]IP: 69.171.230.6 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:53:37]IP: 69.171.231.20 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:53:56]IP: 69.171.249.37 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:56:17]IP: 31.13.103.27 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:56:17]IP: 173.252.87.52 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:56:17]IP: 69.63.189.10 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:56:17]IP: 173.252.87.18 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:56:17]IP: 69.63.189.1 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:56:17]IP: 66.220.149.116 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:56:17]IP: 31.13.115.13 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:56:17]IP: 31.13.115.51 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:56:17]IP: 173.252.83.35 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:56:18]IP: 173.252.83.13 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:56:18]IP: 173.252.87.115 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:56:18]IP: 173.252.87.116 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:56:18]IP: 69.171.234.19 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:56:18]IP: 69.171.234.0 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:56:19]IP: 31.13.115.18 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:56:19]IP: 31.13.103.29 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:56:19]IP: 69.171.234.33 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 10:56:19]IP: 69.171.234.56 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 11:09:16]IP: 177.2.14.104 | Status: BLOCKED | Reason: Desktop Device Detected | Country: N/A | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+[2025-12-28 11:15:05]IP: 31.13.127.1 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 11:15:07]IP: 69.171.234.114 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 11:15:14]IP: 31.13.127.47 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 11:18:37]IP: 173.252.83.3 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 11:18:42]IP: 66.220.149.18 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 11:19:17]IP: 31.13.115.19 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 12:12:22]IP: 177.2.14.104 | Status: BLOCKED | Reason: Desktop Device Detected | Country: N/A | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+[2025-12-28 12:16:12]IP: 177.2.14.104 | Status: ALLOWED | Reason: Clean Traffic | Country: BR | UA: Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1
+[2025-12-28 12:24:25]IP: 173.252.87.16 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 12:24:30]IP: 173.252.87.46 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 12:48:47]IP: 69.171.249.18 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 12:48:52]IP: 69.171.249.33 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 14:50:25]IP: 173.252.127.9 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 14:58:31]IP: 177.2.14.104 | Status: ALLOWED | Reason: Clean Traffic | Country: BR | UA: Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1
+[2025-12-28 14:58:39]IP: 177.2.14.104 | Status: ALLOWED | Reason: Clean Traffic | Country: BR | UA: Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1
+[2025-12-28 15:09:23]IP: 31.13.115.7 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 15:09:23]IP: 31.13.115.18 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 15:34:48]IP: 69.171.231.15 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 15:34:48]IP: 69.171.231.115 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 15:34:57]IP: 173.252.79.10 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 15:34:57]IP: 173.252.79.9 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 16:11:45]IP: 31.13.115.116 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 16:11:46]IP: 31.13.115.2 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 16:11:49]IP: 31.13.115.4 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 16:11:51]IP: 31.13.115.39 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 16:11:52]IP: 31.13.115.39 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 16:11:53]IP: 31.13.115.39 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 16:11:57]IP: 31.13.115.3 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 16:12:17]IP: 173.252.127.7 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 16:12:17]IP: 173.252.127.59 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 16:12:21]IP: 173.252.127.18 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 16:12:21]IP: 173.252.127.18 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 16:12:22]IP: 173.252.127.26 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 16:12:22]IP: 173.252.127.26 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+[2025-12-28 16:16:39]IP: 173.252.79.7 | Status: BLOCKED | Reason: Bot Signature (User-Agent) | Country: N/A | UA: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)

@@ -1,0 +1,160 @@
+[21-Feb-2026 21:20:03 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:07 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:07 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:10 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:10 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:16 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:16 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:18 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:18 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:19 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:19 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:19 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:19 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:20 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:20 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:22 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:22 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:22 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:22 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:22 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:22 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:22 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:22 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:22 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:22 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:22 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:20:22 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:20 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:56 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:56 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:57 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:57 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:57 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:57 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:58 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:58 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:58 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:58 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:58 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:58 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:59 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:59 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:59 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:59 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:59 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:59 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:59 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:21:59 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:22:00 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:22:00 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:22:00 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:22:00 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:22:00 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:22:00 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:22:00 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:22:00 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:22:00 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:22:00 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:22:01 America/Fortaleza] PHP Warning:  require_once(pagamento/TrackingHelper.php): Failed to open stream: No such file or directory in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
+[21-Feb-2026 21:22:01 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'pagamento/TrackingHelper.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/willya04/privacys-br.shop/vivi/home/checkout/index.php on line 3
