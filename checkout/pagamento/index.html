@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout PRIVADO - Thalita Xavier</title>
+    <link rel="icon" href="foto.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    var _eid=(function(){var id=localStorage.getItem('external_id');if(!id){id='eid_'+Date.now()+'_'+Math.random().toString(36).substr(2,9);localStorage.setItem('external_id',id);}return id;})();
+    var _p=new URLSearchParams(location.search);
+    var _planName=decodeURIComponent(_p.get('plan_name')||'Privacy - Plano Mensal');
+    var _planPrice=parseFloat(_p.get('plan_price'))||9.90;
+    fbq('init','1472294161134125',{external_id:_eid});
+    fbq('track','PageView');
+    fbq('track','InitiateCheckout',{content_name:_planName,value:_planPrice,currency:'BRL',external_id:_eid});
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1472294161134125&ev=PageView&noscript=1"/></noscript>
+
+    <style>
+        :root {
+            --primary-color:#FF6B35;--primary-dark:#E55A2B;--success-color:#10B981;
+            --warning-color:#F59E0B;--white:#FFFFFF;--light-gray:#F8F9FA;
+            --medium-gray:#E9ECEF;--dark-gray:#6C757D;--text-color:#333333;
+            --shadow:rgba(0,0,0,0.08);--border-radius:16px;--transition:all 0.3s ease;
+            --green-selected:#10B981;--green-light:rgba(16,185,129,0.1);
+        }
+        *{margin:0;padding:0;box-sizing:border-box;}
+        body{font-family:'Inter',sans-serif;background-color:var(--white);color:var(--text-color);line-height:1.6;}
+        .checkout-container{width:100%;max-width:900px;margin:0 auto;}
+        .security-badge{background:linear-gradient(135deg,var(--primary-color),var(--primary-dark));color:white;text-align:center;padding:14px 15px;font-size:14px;font-weight:600;display:flex;align-items:center;justify-content:center;gap:10px;}
+        .checkout-header{background-color:var(--white);display:flex;justify-content:center;align-items:center;padding:25px 15px;}
+        .logo-img{height:35px;width:auto;}
+        .banner-container{display:flex;width:100%;max-height:250px;overflow:hidden;background-color:var(--medium-gray);}
+        .banner-img{width:25%;object-fit:cover;display:block;}
+        .info-bar{background-color:var(--primary-color);color:white;text-align:center;padding:12px 15px;font-size:14px;font-weight:500;}
+        .checkout-content{display:grid;grid-template-columns:1fr;gap:25px;padding:25px 15px;background-color:var(--light-gray);}
+        .checkout-form,.order-summary{background-color:var(--white);border-radius:var(--border-radius);padding:25px;box-shadow:0 2px 15px rgba(0,0,0,.08);border:1px solid var(--medium-gray);height:fit-content;}
+        .section-title{font-size:20px;font-weight:600;margin-bottom:25px;color:var(--text-color);position:relative;padding-left:18px;display:flex;align-items:center;gap:10px;}
+        .section-title::before{content:'';width:6px;height:24px;background:var(--primary-color);border-radius:3px;position:absolute;left:0;top:50%;transform:translateY(-50%);}
+        .form-group{margin-bottom:20px;}
+        .form-label{display:block;font-size:14px;font-weight:500;margin-bottom:8px;color:var(--dark-gray);}
+        .input-with-flag{position:relative;}
+        .flag-container{position:absolute;left:15px;top:50%;transform:translateY(-50%);display:flex;align-items:center;gap:8px;pointer-events:none;}
+        .flag-img{width:24px;height:auto;border-radius:2px;}
+        .country-code{color:var(--dark-gray);font-weight:500;}
+        .form-input{width:100%;padding:16px;border:1px solid var(--medium-gray);border-radius:12px;font-size:16px;transition:var(--transition);}
+        .form-input.with-flag{padding-left:85px;}
+        .form-input:focus{outline:none;border-color:var(--primary-color);box-shadow:0 0 0 3px rgba(255,107,53,.1);}
+        .form-input.input-error{border-color:#e53e3e!important;box-shadow:0 0 0 3px rgba(229,62,62,.15)!important;}
+        .field-error-msg{display:none;color:#e53e3e;font-size:13px;font-weight:500;margin-top:6px;}
+        .field-error-msg.visible{display:block;}
+        .order-bumps-section{margin:30px 0;}
+        .order-bump-title{font-size:18px;font-weight:600;margin-bottom:15px;display:flex;align-items:center;gap:10px;}
+        .order-bump-title i{color:var(--primary-color);font-size:20px;}
+        .order-bump-item{background:var(--white);border:2px solid var(--medium-gray);border-radius:12px;padding:15px;transition:var(--transition);cursor:pointer;margin-bottom:15px;}
+        .order-bump-item.selected{border-color:var(--green-selected);background:var(--green-light);}
+        .order-bump-header{display:flex;align-items:center;gap:15px;}
+        .order-bump-image img{width:70px;height:70px;border-radius:10px;object-fit:cover;}
+        .order-bump-info{flex:1;}
+        .order-bump-name-price{display:flex;justify-content:space-between;align-items:flex-start;}
+        .order-bump-name{font-size:16px;font-weight:600;}
+        .order-bump-price{font-size:16px;font-weight:700;color:var(--green-selected);white-space:nowrap;}
+        .order-bump-description{font-size:13px;color:var(--dark-gray);margin:4px 0;}
+        .order-bump-old-price-save{display:flex;align-items:center;gap:10px;margin-top:5px;}
+        .order-bump-old-price{font-size:13px;color:var(--dark-gray);text-decoration:line-through;}
+        .order-bump-save-badge{background:var(--warning-color);color:white;padding:2px 8px;border-radius:8px;font-size:11px;font-weight:600;}
+        .order-bump-checkbox-container{display:flex;align-items:center;gap:10px;margin-top:15px;}
+        .order-bump-checkbox{width:18px;height:18px;accent-color:var(--primary-color);}
+        .checkbox-label{font-size:14px;font-weight:500;color:var(--text-color);}
+        .product-item{display:flex;gap:15px;align-items:center;}
+        .product-image-container img{width:80px;height:80px;border-radius:10px;border:1px solid var(--medium-gray);object-fit:cover;}
+        .product-name{font-size:18px;font-weight:600;}
+        .product-description{font-size:14px;color:var(--dark-gray);}
+        .product-price{font-size:22px;font-weight:700;color:var(--primary-color);}
+        .bumps-added{margin-top:20px;display:none;}
+        .bump-added-item{display:flex;justify-content:space-between;align-items:center;font-size:14px;margin-bottom:8px;color:var(--dark-gray);}
+        .bump-added-price{font-weight:500;}
+        .order-total{border-top:1px solid var(--medium-gray);padding-top:20px;margin-top:20px;display:flex;justify-content:space-between;align-items:center;}
+        .total-label{font-size:18px;font-weight:600;}
+        .total-price{font-size:28px;font-weight:700;color:var(--primary-color);}
+        .submit-button{width:100%;padding:18px;background:var(--primary-color);color:white;border:none;border-radius:12px;font-size:17px;font-weight:600;cursor:pointer;margin-top:20px;display:flex;justify-content:center;align-items:center;gap:10px;}
+        .secure-checkout{text-align:center;margin-top:25px;font-size:14px;color:var(--dark-gray);display:flex;justify-content:center;align-items:center;gap:8px;}
+        .footer{text-align:center;padding:25px 15px;border-top:1px solid var(--medium-gray);background-color:var(--white);}
+        .footer-secure{display:inline-flex;align-items:center;gap:8px;font-size:13px;padding:8px 16px;border-radius:20px;border:1px solid var(--medium-gray);margin-bottom:15px;}
+        .loading-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(255,255,255,.9);display:none;justify-content:center;align-items:center;z-index:1000;}
+        .loading-overlay.active{display:flex;}
+        .loading-spinner{width:50px;height:50px;border:4px solid var(--medium-gray);border-top:4px solid var(--primary-color);border-radius:50%;animation:spin 1s linear infinite;}
+        @keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+        /* QR Code Section */
+        #payment-wrapper{display:none;flex-direction:column;align-items:center;padding:20px 15px;min-height:100vh;background:var(--light-gray);}
+        .pix-card{background:white;width:100%;max-width:500px;border-radius:var(--border-radius);box-shadow:0 4px 20px rgba(0,0,0,.08);overflow:hidden;border:1px solid var(--medium-gray);}
+        .pix-header{background:var(--white);display:flex;flex-direction:column;align-items:center;padding:20px 15px;box-shadow:0 2px 10px rgba(0,0,0,.05);border-bottom:1px solid var(--medium-gray);}
+        .pix-summary{padding:25px;border-bottom:1px dashed var(--medium-gray);background:#fdfdfd;}
+        .pix-summary-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:5px;}
+        .pix-total-row{display:flex;justify-content:space-between;align-items:center;margin-top:10px;}
+        .pix-total-price{font-size:28px;font-weight:800;color:var(--primary-color);}
+        .pix-area{padding:25px;text-align:center;}
+        .pix-title{font-size:18px;font-weight:700;margin-bottom:20px;color:var(--text-color);}
+        .instructions-steps{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:25px;text-align:center;}
+        .step{display:flex;flex-direction:column;align-items:center;gap:8px;}
+        .step-icon{width:32px;height:32px;background:var(--primary-color);color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;box-shadow:0 4px 8px rgba(255,107,53,.3);}
+        .step-text{font-size:11px;font-weight:600;color:var(--dark-gray);line-height:1.2;}
+        .qr-frame{display:flex;justify-content:center;align-items:center;padding:15px;border:2px solid var(--primary-color);border-radius:12px;background:white;margin:0 auto 20px auto;width:fit-content;box-shadow:0 10px 25px rgba(255,107,53,.1);}
+        .copy-info{font-size:14px;color:var(--dark-gray);margin-bottom:10px;font-weight:500;}
+        .copy-field{background:var(--light-gray);border:1px solid var(--medium-gray);border-radius:10px;padding:14px;font-family:'Courier New',monospace;font-size:12px;word-break:break-all;margin-bottom:15px;width:100%;box-sizing:border-box;text-align:center;cursor:pointer;transition:var(--transition);color:var(--text-color);}
+        .copy-field:hover{border-color:var(--primary-color);background-color:#fff;}
+        .btn{width:100%;padding:18px;border-radius:12px;font-weight:700;font-size:16px;cursor:pointer;border:none;display:flex;justify-content:center;align-items:center;gap:10px;margin-bottom:15px;background:var(--primary-color);color:white;transition:var(--transition);box-shadow:0 6px 15px rgba(255,107,53,.3);}
+        .btn:hover{background:var(--primary-dark);transform:translateY(-2px);}
+        .timer-msg{font-size:13px;color:var(--dark-gray);margin-top:15px;display:flex;align-items:center;justify-content:center;gap:8px;font-weight:500;}
+        .timer-msg i{color:var(--warning-color);}
+        .paid-section{display:none;padding:40px 20px;text-align:center;}
+        .paid-icon{font-size:64px;margin-bottom:20px;color:var(--success-color);animation:bounceIn .6s cubic-bezier(.68,-.55,.265,1.55);}
+        @keyframes bounceIn{0%{transform:scale(0);opacity:0}100%{transform:scale(1);opacity:1}}
+        .error-box{padding:40px 20px;text-align:center;}
+        .error-icon{font-size:48px;color:#d93025;margin-bottom:20px;}
+        .error-title{font-size:22px;font-weight:700;color:#d93025;margin-bottom:15px;}
+        @media(max-width:767px){.checkout-content{grid-template-columns:1fr;}.checkout-form{order:2;margin-top:20px;}.order-summary{order:1;}.banner-container{max-height:180px;}.banner-img{width:100%;}.hide-on-mobile{display:none;}}
+    </style>
+</head>
+<body>
+
+<!-- ===== SEÇÃO DE CHECKOUT ===== -->
+<div id="checkout-wrapper">
+    <div class="checkout-container">
+        <div class="security-badge"><i class="fas fa-lock"></i> Pagamento 100% Seguro e Criptografado</div>
+        <div class="checkout-header">
+            <img src="logo.png" alt="Privacy Logo" class="logo-img">
+        </div>
+
+        <div class="banner-container">
+            <img src="2jermqv3ku0ma9svt8qkuf5mw.jpg" alt="Banner" class="banner-img">
+        </div>
+
+        <div class="info-bar">O acesso será enviado pelo WhatsApp e também pelo e-mail de forma totalmente privada</div>
+
+        <div class="checkout-content">
+            <div class="checkout-form">
+                <h2 class="section-title">Seus dados</h2>
+                <form id="checkoutForm">
+                    <div class="form-group">
+                        <label class="form-label" for="name">Nome completo</label>
+                        <input type="text" id="name" class="form-input" placeholder="Digite seu nome completo" autocomplete="name">
+                        <span class="field-error-msg" id="error-name">⚠ Por favor, informe seu nome completo.</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="email">E-mail</label>
+                        <input type="email" id="email" class="form-input" placeholder="seuemail@exemplo.com" autocomplete="email">
+                        <span class="field-error-msg" id="error-email">⚠ Por favor, informe um e-mail válido.</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="phone">WhatsApp</label>
+                        <div class="input-with-flag">
+                            <div class="flag-container">
+                                <img src="bandeira.png" alt="Brasil" class="flag-img">
+                                <span class="country-code">+55</span>
+                            </div>
+                            <input type="tel" id="phone" class="form-input with-flag" placeholder="(11) 99999-9999" autocomplete="tel">
+                        </div>
+                        <span class="field-error-msg" id="error-phone">⚠ Por favor, informe seu WhatsApp com DDD.</span>
+                    </div>
+
+                    <div class="order-bumps-section">
+                        <div class="order-bump-title"><i class="fas fa-gift"></i><span>ADICIONAIS EXCLUSIVOS (OPCIONAL)</span></div>
+                        <p>Marque os produtos que deseja adicionar:</p>
+
+                        <div class="order-bump-item" id="bump-maisa-container">
+                            <div class="order-bump-header">
+                                <div class="order-bump-image"><img src="pkt0cabb7irkyg3xmmkiolln7.jpg" alt="Privacy Mel Maia"></div>
+                                <div class="order-bump-info">
+                                    <div class="order-bump-name-price">
+                                        <span class="order-bump-name">Privacy Mel Maia</span>
+                                        <span class="order-bump-price">R$ 7,90</span>
+                                    </div>
+                                    <p class="order-bump-description">Acesso completo ao conteúdo exclusivo da Mel Maia.</p>
+                                    <div class="order-bump-old-price-save">
+                                        <span class="order-bump-old-price">R$ 19,90</span>
+                                        <span class="order-bump-save-badge">ECONOMIZE 60%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="order-bump-checkbox-container">
+                                <input type="checkbox" id="bump_maisa" class="order-bump-checkbox">
+                                <label for="bump_maisa" class="checkbox-label">Adicionar "Privacy Mel Maia" ao meu pedido por R$ 7,90</label>
+                            </div>
+                        </div>
+
+                        <div class="order-bump-item" id="bump-melody-container">
+                            <div class="order-bump-header">
+                                <div class="order-bump-image"><img src="lbzs6ucczallplhvvmtm0mu5r.png" alt="Privacy Kamilinha"></div>
+                                <div class="order-bump-info">
+                                    <div class="order-bump-name-price">
+                                        <span class="order-bump-name">Privacy Kamilinha</span>
+                                        <span class="order-bump-price">R$ 8,90</span>
+                                    </div>
+                                    <p class="order-bump-description">Conteúdo premium da Kamilinha - Vídeos e fotos exclusivas.</p>
+                                    <div class="order-bump-old-price-save">
+                                        <span class="order-bump-old-price">R$ 19,90</span>
+                                        <span class="order-bump-save-badge">ECONOMIZE 55%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="order-bump-checkbox-container">
+                                <input type="checkbox" id="bump_melody" class="order-bump-checkbox">
+                                <label for="bump_melody" class="checkbox-label">Adicionar "Privacy Kamilinha" ao meu pedido por R$ 8,90</label>
+                            </div>
+                        </div>
+
+                        <div class="order-bump-item" id="bump-nicolle-container">
+                            <div class="order-bump-header">
+                                <div class="order-bump-image"><img src="bump3.jpg" alt="Privacy Nicolle"></div>
+                                <div class="order-bump-info">
+                                    <div class="order-bump-name-price">
+                                        <span class="order-bump-name">Privacy Nicolle Ex do Gordão da xj</span>
+                                        <span class="order-bump-price">R$ 8,90</span>
+                                    </div>
+                                    <p class="order-bump-description">Conteúdo premium da Nicolle Ex do Gordão da xj - Vídeos e fotos exclusivas.</p>
+                                    <div class="order-bump-old-price-save">
+                                        <span class="order-bump-old-price">R$ 19,90</span>
+                                        <span class="order-bump-save-badge">ECONOMIZE 55%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="order-bump-checkbox-container">
+                                <input type="checkbox" id="bump_nicolle" class="order-bump-checkbox">
+                                <label for="bump_nicolle" class="checkbox-label">Adicionar "Privacy Nicolle Ex do Gordão da xj" ao meu pedido por R$ 8,90</label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <button type="submit" form="checkoutForm" id="submitButton" class="submit-button">
+                    <i class="fas fa-lock"></i>
+                    <span id="buttonText">FINALIZAR PEDIDO</span>
+                </button>
+            </div>
+
+            <div class="order-summary">
+                <h2 class="section-title">Seu pedido</h2>
+                <div class="product-item">
+                    <div class="product-image-container"><img src="nDh7EeVd8Whv.png" alt="Produto"></div>
+                    <div class="product-info">
+                        <div class="product-name" id="summary-name">Privacy - Plano Mensal</div>
+                        <div class="product-price" id="summary-price">R$ 9,90</div>
+                    </div>
+                </div>
+                <div id="bumpsAdded" class="bumps-added"></div>
+                <div class="order-total">
+                    <div class="total-label">Total</div>
+                    <div id="totalPrice" class="total-price">R$ 9,90</div>
+                </div>
+                <div class="secure-checkout"><i class="fas fa-shield-alt"></i> Checkout 100% seguro e criptografado</div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-secure"><i class="fas fa-shield-alt"></i> Checkout Seguro</div>
+            <p>Checkout PRIVADO © 2025</p>
+        </footer>
+    </div>
+</div>
+
+<!-- ===== SEÇÃO PIX / QR CODE ===== -->
+<div id="payment-wrapper">
+    <div class="pix-card">
+        <div class="pix-header">
+            <img src="logo.png" alt="Privacy Logo" class="logo-img" style="margin-bottom:5px;">
+            <div style="font-size:12px;color:#6C757D;display:flex;align-items:center;gap:6px;font-weight:500;">
+                <i class="fas fa-shield-alt" style="color:#10B981;"></i> Checkout 100% Seguro e Criptografado
+            </div>
+        </div>
+
+        <div class="pix-summary">
+            <div class="pix-summary-row">
+                <span style="font-weight:500;font-size:14px;color:#6C757D;">Pedido:</span>
+                <span id="pix-product-name" style="font-weight:600;font-size:14px;text-align:right;"></span>
+            </div>
+            <div class="pix-total-row">
+                <span style="font-weight:700;font-size:16px;">Total a pagar:</span>
+                <span id="pix-amount" class="pix-total-price"></span>
+            </div>
+        </div>
+
+        <div class="pix-area">
+            <div id="pending-section">
+                <h2 class="pix-title">Pague com PIX para liberar seu acesso</h2>
+                <div class="instructions-steps">
+                    <div class="step"><div class="step-icon">1</div><span class="step-text">Abra o app do seu banco</span></div>
+                    <div class="step"><div class="step-icon">2</div><span class="step-text">Escaneie o QR Code</span></div>
+                    <div class="step"><div class="step-icon">3</div><span class="step-text">Acesso imediato!</span></div>
+                </div>
+                <div class="qr-frame"><div id="qrcode-container"></div></div>
+                <p class="copy-info"><i class="fas fa-copy"></i> Ou use o PIX Copia e Cola:</p>
+                <div class="copy-field" id="pix-code-text" onclick="copyPix()"></div>
+                <button class="btn" onclick="copyPix()"><i class="fas fa-paste"></i> COPIAR CÓDIGO PIX</button>
+                <div class="timer-msg"><i class="fas fa-sync-alt fa-spin"></i> Aguardando confirmação do pagamento...</div>
+            </div>
+
+            <div id="completed-section" class="paid-section">
+                <div class="paid-icon"><i class="fas fa-check-circle"></i></div>
+                <h1 class="pix-title" style="color:#10B981;font-size:24px;">Pagamento Aprovado!</h1>
+                <p style="font-weight:500;color:#6C757D;">Seu acesso foi liberado. Redirecionando...</p>
+            </div>
+
+            <div id="error-section" class="error-box" style="display:none;">
+                <div class="error-icon"><i class="fas fa-exclamation-circle"></i></div>
+                <h1 class="error-title">Ocorreu um Erro</h1>
+                <p id="error-msg" style="margin-bottom:25px;color:#6C757D;font-weight:500;"></p>
+                <a href="." class="btn" style="text-decoration:none;"><i class="fas fa-redo"></i> TENTAR NOVAMENTE</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="loading-overlay" id="loadingOverlay"><div class="loading-spinner"></div></div>
+
+<script>
+    const BUMP_MAISA_PRICE   = 7.90;
+    const BUMP_MELODY_PRICE  = 8.90;
+    const BUMP_NICOLLE_PRICE = 8.90;
+    const urlParams     = new URLSearchParams(window.location.search);
+    const MAIN_PRODUCT_PRICE = parseFloat(urlParams.get('plan_price')) || 9.90;
+    const MAIN_PRODUCT_NAME  = decodeURIComponent(urlParams.get('plan_name') || 'Privacy - Plano Mensal');
+
+    let _pixCode = '';
+
+    function fmt(v) { return 'R$ ' + v.toFixed(2).replace('.', ','); }
+
+    document.getElementById('summary-name').textContent  = MAIN_PRODUCT_NAME;
+    document.getElementById('summary-price').textContent = fmt(MAIN_PRODUCT_PRICE);
+    document.getElementById('totalPrice').textContent    = fmt(MAIN_PRODUCT_PRICE);
+    document.getElementById('buttonText').textContent    = 'FINALIZAR PEDIDO - ' + fmt(MAIN_PRODUCT_PRICE);
+
+    const SS_KEY = 'checkout_form_data';
+    const saved  = JSON.parse(sessionStorage.getItem(SS_KEY) || '{}');
+    if (saved.name)  document.getElementById('name').value  = saved.name;
+    if (saved.email) document.getElementById('email').value = saved.email;
+    if (saved.phone) document.getElementById('phone').value = saved.phone;
+
+    function saveField(el) {
+        const d = JSON.parse(sessionStorage.getItem(SS_KEY) || '{}');
+        d[el.id] = el.value;
+        sessionStorage.setItem(SS_KEY, JSON.stringify(d));
+    }
+    ['name','email','phone'].forEach(id => {
+        const el = document.getElementById(id);
+        el.addEventListener('input', () => saveField(el));
+    });
+
+    document.getElementById('phone').addEventListener('input', (e) => {
+        let v = e.target.value.replace(/\D/g,'').slice(0,11);
+        if(v.length>=7){v=v.replace(/^(\d{2})(\d{5})(\d{0,4}).*/,'($1) $2-$3');}
+        else if(v.length>=3){v=v.replace(/^(\d{2})(\d{0,5}).*/,'($1) $2');}
+        else if(v){v=v.replace(/^(\d*)/,'($1');}
+        e.target.value = v;
+        saveField(e.target);
+    });
+
+    ['maisa','melody','nicolle'].forEach(id => {
+        const container = document.getElementById('bump-' + id + '-container');
+        const checkbox  = document.getElementById('bump_' + id);
+        container.addEventListener('click', (e) => {
+            if (e.target.type !== 'checkbox') { checkbox.checked = !checkbox.checked; updateUI(); }
+        });
+        checkbox.addEventListener('change', updateUI);
+    });
+
+    function updateUI() {
+        let total = MAIN_PRODUCT_PRICE;
+        const bumpsContainer = document.getElementById('bumpsAdded');
+        bumpsContainer.innerHTML = '';
+        bumpsContainer.style.display = 'none';
+
+        const maisaChecked   = document.getElementById('bump_maisa').checked;
+        const melodyChecked  = document.getElementById('bump_melody').checked;
+        const nicolleChecked = document.getElementById('bump_nicolle').checked;
+
+        document.getElementById('bump-maisa-container').classList.toggle('selected', maisaChecked);
+        document.getElementById('bump-melody-container').classList.toggle('selected', melodyChecked);
+        document.getElementById('bump-nicolle-container').classList.toggle('selected', nicolleChecked);
+
+        if (maisaChecked)   { total += BUMP_MAISA_PRICE;   addBump('Privacy Mel Maia',   BUMP_MAISA_PRICE); }
+        if (melodyChecked)  { total += BUMP_MELODY_PRICE;  addBump('Privacy Kamilinha',   BUMP_MELODY_PRICE); }
+        if (nicolleChecked) { total += BUMP_NICOLLE_PRICE; addBump('Privacy Nicolle Ex',  BUMP_NICOLLE_PRICE); }
+        if (maisaChecked || melodyChecked || nicolleChecked) bumpsContainer.style.display = 'block';
+
+        document.getElementById('totalPrice').textContent = fmt(total);
+        document.getElementById('buttonText').textContent = 'FINALIZAR PEDIDO - ' + fmt(total);
+    }
+
+    function addBump(name, price) {
+        const c = document.getElementById('bumpsAdded');
+        c.innerHTML += `<div class="bump-added-item"><span>${name}</span><span class="bump-added-price">+ ${fmt(price)}</span></div>`;
+    }
+
+    document.getElementById('checkoutForm').addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        const nameField  = document.getElementById('name');
+        const emailField = document.getElementById('email');
+        const phoneField = document.getElementById('phone');
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        let valid = true;
+
+        const nameVal = nameField.value.trim();
+        if (!nameVal || nameVal.split(' ').filter(p=>p).length < 2) {
+            nameField.classList.add('input-error');
+            document.getElementById('error-name').classList.add('visible');
+            valid = false;
+        } else {
+            nameField.classList.remove('input-error');
+            document.getElementById('error-name').classList.remove('visible');
+        }
+
+        const emailVal = emailField.value.trim();
+        if (!emailVal || !emailRegex.test(emailVal)) {
+            emailField.classList.add('input-error');
+            document.getElementById('error-email').classList.add('visible');
+            valid = false;
+        } else {
+            emailField.classList.remove('input-error');
+            document.getElementById('error-email').classList.remove('visible');
+        }
+
+        const phoneVal = phoneField.value.replace(/\D/g,'');
+        if (!phoneVal || phoneVal.length < 10) {
+            phoneField.classList.add('input-error');
+            document.getElementById('error-phone').classList.add('visible');
+            valid = false;
+        } else {
+            phoneField.classList.remove('input-error');
+            document.getElementById('error-phone').classList.remove('visible');
+        }
+
+        if (!valid) return;
+
+        sessionStorage.removeItem(SS_KEY);
+        document.getElementById('loadingOverlay').classList.add('active');
+        document.getElementById('submitButton').disabled = true;
+
+        const body = {
+            base_product_name:  MAIN_PRODUCT_NAME,
+            base_product_price: String(MAIN_PRODUCT_PRICE),
+            name:               nameVal,
+            email:              emailVal,
+            phone:              phoneVal,
+            cpf:                '',
+            external_id:        _eid,
+            bump_maisa:         document.getElementById('bump_maisa').checked   ? '1' : '0',
+            bump_melody:        document.getElementById('bump_melody').checked  ? '1' : '0',
+            bump_nicolle:       document.getElementById('bump_nicolle').checked ? '1' : '0',
+        };
+
+        try {
+            const res  = await fetch('/api/payment', {
+                method:  'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body:    JSON.stringify(body),
+            });
+            const data = await res.json();
+
+            document.getElementById('loadingOverlay').classList.remove('active');
+
+            if (data.success) {
+                showQRCode(data.qrCodeText, data.transactionId, data.amount, data.productName);
+            } else {
+                document.getElementById('submitButton').disabled = false;
+                alert('Erro: ' + data.error);
+            }
+        } catch (err) {
+            document.getElementById('loadingOverlay').classList.remove('active');
+            document.getElementById('submitButton').disabled = false;
+            alert('Erro de conexão. Tente novamente.');
+        }
+    });
+
+    function showQRCode(qrCodeText, transactionId, amount, productName) {
+        _pixCode = qrCodeText;
+
+        document.getElementById('pix-product-name').textContent = productName;
+        document.getElementById('pix-amount').textContent       = fmt(amount);
+        document.getElementById('pix-code-text').textContent    = qrCodeText;
+
+        document.getElementById('checkout-wrapper').style.display = 'none';
+        document.getElementById('payment-wrapper').style.display  = 'flex';
+
+        new QRCode(document.getElementById('qrcode-container'), { text: qrCodeText, width: 220, height: 220 });
+
+        if (window.fbq) {
+            fbq('track', 'InitiateCheckout', {
+                value: amount, currency: 'BRL',
+                content_name: productName, external_id: _eid
+            });
+        }
+
+        const statusInterval = setInterval(() => {
+            fetch('/api/check-status?tid=' + encodeURIComponent(transactionId))
+                .then(r => r.json())
+                .then(d => {
+                    const s = (d.status || '').toLowerCase();
+                    if (['completed','paid','approved','succeeded'].includes(s)) {
+                        clearInterval(statusInterval);
+                        if (window.fbq) {
+                            fbq('track', 'Purchase', {
+                                value: amount, currency: 'BRL',
+                                content_name: productName, order_id: transactionId
+                            }, { eventID: transactionId });
+                        }
+                        document.getElementById('pending-section').style.display   = 'none';
+                        document.getElementById('completed-section').style.display = 'block';
+                        setTimeout(() => {
+                            window.location.href = './obrigado/?transaction_id=' + encodeURIComponent(transactionId) +
+                                '&amount=' + amount + '&product_name=' + encodeURIComponent(productName);
+                        }, 2500);
+                    }
+                })
+                .catch(() => {});
+        }, 1500);
+    }
+
+    function copyPix() {
+        navigator.clipboard.writeText(_pixCode).then(() => alert('Código PIX Copiado!'));
+    }
+
+    updateUI();
+</script>
+</body>
+</html>

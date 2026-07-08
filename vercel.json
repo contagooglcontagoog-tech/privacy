@@ -1,10 +1,6 @@
 {
   "version": 2,
-  "rewrites": [
-    { "source": "/", "destination": "/vivi/home/" },
-    { "source": "/home", "destination": "/vivi/home/" },
-    { "source": "/homes", "destination": "/vivi/homes/" }
-  ],
+  "cleanUrls": true,
   "headers": [
     {
       "source": "/api/(.*)",
