@@ -249,7 +249,7 @@ $external_id = TrackingHelper::getExternalId();
         // Mantém outros parâmetros da URL se existirem (como UTMS)
         const currentParams = window.location.search;
         const separator = currentParams ? '&' : '?';
-        const promoLink = `./checkout/pagamento/index.php${currentParams}${separator}plan_name=Privacy%20-%20Oferta%20Relâmpago&plan_price=7.90`;
+        const promoLink = `./checkout/pagamento/${currentParams}${separator}plan_name=Privacy%20-%20Oferta%20Relâmpago&plan_price=7.90`;
         window.location.href = promoLink;
     }
 

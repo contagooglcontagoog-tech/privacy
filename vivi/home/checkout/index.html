@@ -597,7 +597,7 @@
             <p class="badge" style="display: block; width: fit-content">PLANO INICIAL 🔥🔥</p>
 
             <!-- BOTÃO 1 CORRIGIDO COM PARÂMETROS NA URL -->
-            <a href="./pagamento/index.php?plan_name=Privacy%20-%20Plano%20Mensal&plan_price=6.99"
+            <a href="./pagamento/?plan_name=Privacy%20-%20Plano%20Mensal&plan_price=6.99"
               class="subscription-link">
               <button class="subscription-button primary-button pulse">
                 <b>30 DIAS</b>
@@ -612,7 +612,7 @@
               </div>
 
               <!-- BOTÃO 2 CORRIGIDO COM PARÂMETROS NA URL -->
-              <a href="./pagamento/index.php?plan_name=Privacy%20-%20Plano%20Especial%20(3%20Meses)&plan_price=15.90"
+              <a href="./pagamento/?plan_name=Privacy%20-%20Plano%20Especial%20(3%20Meses)&plan_price=15.90"
                 class="subscription-link">
                 <button class="subscription-button outline-button">
                   <div class="button-left">
@@ -624,7 +624,7 @@
               </a>
               
               <!-- BOTÃO 3 CORRIGIDO COM PARÂMETROS NA URL -->
-              <a href="./pagamento/index.php?plan_name=Privacy%20-%20Plano%20VIP%20(1%20Ano%20%2B%20WhatsApp)&plan_price=29.90"
+              <a href="./pagamento/?plan_name=Privacy%20-%20Plano%20VIP%20(1%20Ano%20%2B%20WhatsApp)&plan_price=29.90"
                 class="subscription-link">
                 <button class="subscription-button outline-button">
                   <div class="button-left">
@@ -725,7 +725,7 @@
         <!-- ======================================================= -->
         <!-- BOTÃO FINAL CORRIGIDO (DENTRO DO CARD) -->
         <!-- ======================================================= -->
-        <a href="./pagamento/index.php?plan_name=Privacy%20-%20Plano%20Mensal&plan_price=6.99"
+        <a href="./pagamento/?plan_name=Privacy%20-%20Plano%20Mensal&plan_price=6.99"
           class="subscription-link" style="display: block; width: 100%; margin-top: 20px; padding-bottom: 20px;">
           <button class="subscription-button primary-button pulse" style="width: 100%; justify-content: center;">
             <b style="font-size: 1.1em;">VEJA TUDO POR APENAS <strong style="color: #fff; font-weight: 900;">R$
@@ -939,7 +939,7 @@
       const currentParams = window.location.search;
       const separator = currentParams ? '&' : '?';
       // Ajuste de caminho para estar correto a partir de home/checkout/
-      const promoLink = `./pagamento/index.php${currentParams}${separator}plan_name=Privacy%20-%20Oferta%20Relâmpago&plan_price=7.90`;
+      const promoLink = `./pagamento/${currentParams}${separator}plan_name=Privacy%20-%20Oferta%20Relâmpago&plan_price=7.90`;
       window.location.href = promoLink;
     }
 
